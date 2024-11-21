@@ -1,6 +1,6 @@
-user_answer = input("What is the capital of France? ")
+first_question = input("What is the Capital of France? ")
 
-if user_answer.strip().lower() == "paris":
-    print("Correct! The capital of France is Paris.")
+if first_question.strip().lower() == "paris":
+    print("You're answer is correct! The Capital of France is Paris.")
 else:
-    print("Incorrect. The correct answer is Paris.")
+    print("Incorrect answer. The correct answer is Paris.")
