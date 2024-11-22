@@ -1,3 +1,5 @@
+# Exercise 05: Days of the Month
+
 month_days = {
     1: 31, 
     2: 28,  
@@ -15,7 +17,6 @@ month_days = {
 
 month_names = {
     1: "January",
-    2: "February",
     3: "March",
     4: "April",
     5: "May",
@@ -25,12 +26,27 @@ month_names = {
     9: "September",
     10: "October",
     11: "November",
-    12: "December"}
+    12: "December"
+}
 
-month_number = int(input("Enter the month number (1-12): "))
+def is_leap_year(year):
+    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+        return True
+    return False
 
-if 1 <= month_number <= 12:
-    print(f"The number of days in month {month_names[month_number]} is {month_days[month_number]}")
+try:
+    month = int(input("Enter the month number (1-12): "))
+    year = int(input("Enter the year: "))
 
-else:
-    print("Invalid month number. Please enter a number between 1 and 12.")
+    if 1 <= month <= 12:
+        if month == 2:
+            if is_leap_year(year):
+                print(f"February in {year} has 29 days.")
+            else:
+                print(f"February in {year} has 28 days.")
+        else:
+            print(f"The month {month_names[month]} has {month_days[month]} days.")
+    else:
+        print("Invalid month number. Please enter a number between 1 and 12.")
+except ValueError:
+    print("Invalid input. Please enter a valid integer.")

@@ -1,3 +1,4 @@
+# Exercise 01: Coding is Cool
 
 word1 = "Coding"
 word2 = "is"

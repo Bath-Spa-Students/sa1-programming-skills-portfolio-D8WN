@@ -1,3 +1,5 @@
+# Exercise 04: Primitive Quiz
+
 first_question = input("What is the Capital of France? ")
 
 if first_question.strip().lower() == "paris":

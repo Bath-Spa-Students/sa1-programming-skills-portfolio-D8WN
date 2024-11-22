@@ -1,3 +1,4 @@
+# Exercise 02: Simple Sums
 
 first_variable = 8
 second_variable = 10
@@ -8,3 +9,4 @@ x = 8
 y = 10
 z = x + y 
 print(z)
+    
