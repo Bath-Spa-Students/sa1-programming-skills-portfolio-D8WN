@@ -1,7 +1,7 @@
-# VARIABLES
+# Variables
 
 Machine_Gun = "Reloading ammo..."
-print(status)
+print(Machine_Gun)
 
 Machine_Gun = "Weapon is fully reloaded!"
-print(status)
+print(Machine_Gun)
