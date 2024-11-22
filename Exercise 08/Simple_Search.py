@@ -3,7 +3,7 @@
 list=["Dave", "Zac", "Sam", "Ian", "Jake", "Ron"] 
 
 print("Task: Find the person we're looking for.")
-print(my_list)
+print(list)
 search= str(input("Enter the name of the person we're looking for': "))
 if search == "Sam": 
     print("Congratulations, you found Sam!") 
