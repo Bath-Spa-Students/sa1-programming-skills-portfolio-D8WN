@@ -1,7 +1,7 @@
 # Exercise 08: Simple Search
 
+list=["Dave", "Zac", "Sam", "Ian", "Jake", "Ron"] 
 
-my_list=["Dave", "Zac", "Sam", "Ian", "Jake", "Ron"] 
 print("Task: Find the person we're looking for.")
 print(my_list)
 search= str(input("Enter the name of the person we're looking for': "))
