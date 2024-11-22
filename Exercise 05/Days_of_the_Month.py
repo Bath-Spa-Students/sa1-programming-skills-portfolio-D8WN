@@ -49,4 +49,4 @@ try:
     else:
         print("Invalid month number. Please enter a number between 1 and 12.")
 except ValueError:
-    print("Invalid input. Please enter a valid integer.")
+    print("Invalid input. Please enter a valid integer within 1-12.")
